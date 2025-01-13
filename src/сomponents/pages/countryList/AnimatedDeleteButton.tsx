@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { ErrorModal } from '@/сomponents/ErrorModal';
+import { ErrorModal } from '@/сomponents/common/ErrorModal';
 
 type AnimatedDeleteButtonProps = {
   onDeleteAction: () => Promise<void>;
