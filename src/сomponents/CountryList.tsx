@@ -1,6 +1,6 @@
 import { CountryItem } from '@/сomponents';
 import { getCountries } from '@/models';
-import { ReloadButton } from '@/сomponents/ReloadButton';
+import { ReloadButton } from '@/сomponents';
 
 export const CountryList = async () => {
   try {
