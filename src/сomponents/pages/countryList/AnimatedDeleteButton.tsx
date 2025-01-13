@@ -57,7 +57,7 @@ export const AnimatedDeleteButton = ({
       <button
         onClick={handleDelete}
         disabled={isDeleting}
-        className="px-4 py-2 bg-red-500 text-white font-medium rounded-lg hover:bg-red-600 transition-colors focus:outline-none focus:ring-red-500 disabled:opacity-50"
+        className=" min-w-[121px] px-4 py-2 bg-red-500 text-white font-medium rounded-lg hover:bg-red-600 transition-colors focus:outline-none focus:ring-red-500 disabled:opacity-50"
         aria-label={`Удалить ${countryName}`}
       >
         {isDeleting ? 'Удаление...' : 'Удалить'}

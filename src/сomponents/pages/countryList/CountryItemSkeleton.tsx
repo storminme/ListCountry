@@ -6,7 +6,7 @@ export const CountryItemSkeleton = () => {
           <div className="w-[22px] h-[15px] bg-gray-200 object-cover rounded"></div>
           <div className="w-[105px] h-[24px] bg-gray-200 rounded-lg"></div>
         </div>
-        <div className="w-[95px] h-[40px] bg-gray-200 rounded-lg"></div>
+        <div className="w-[121px] h-[40px] bg-gray-200 rounded-lg"></div>
       </div>
     </>
   );
