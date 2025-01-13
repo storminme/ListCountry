@@ -6,7 +6,7 @@ export const CountryList = async () => {
   try {
     const countries = await getCountries();
     return (
-      <div className="max-w-xl mx-auto p-4 space-y-4">
+      <div className="max-w-xl min-w-[365px] mx-auto p-4 space-y-4">
         <h1 className="flex text-4xl font-bold mb-6 justify-center">
           Список стран
         </h1>
