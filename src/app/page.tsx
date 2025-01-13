@@ -6,7 +6,7 @@ import { CountryList } from '@/сomponents';
 export default function Page() {
   return (
     <Suspense fallback={<Loading />}>
-      <CountryList />;
+      <CountryList />
     </Suspense>
   );
 }
